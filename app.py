@@ -58,12 +58,12 @@ def predictobject():
 
         image_number += 1
 
-    cv2.imshow('image', images)
+    # cv2.imshow('image', images)
     # cv2.imwrite('Sample_result.jpg', images)
     # # cv2.imshow('thresh', thresh)
     # # cv2.imshow('dilate', dilate)
     # cv2.waitKey()
-    return render_template("home.html",outputimage="Final Output {}".format(images))
+    return render_template("home.html",Prediction="Final Output {}".format(images))
     
 
 if __name__== '__main__':
