@@ -63,8 +63,8 @@ def predictobject():
     # # cv2.imshow('thresh', thresh)
     # # cv2.imshow('dilate', dilate)
     # cv2.waitKey()
-    return render_template("home.html",Prediction="Final Output {}".format(images))
+    return render_template("home.html",Prediction=images)
     
 
-if __name__== '__main__':
+if __name__== "__main__":
     app.run(debug=True)
