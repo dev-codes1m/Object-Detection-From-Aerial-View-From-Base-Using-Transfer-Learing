@@ -9,13 +9,13 @@
 <body>
     <div class="login">
         <h1>Object Detection From Aerial View</h1>
-        <form action="{{url_for('predict_object')}}"methods="POST">
-            <input type="text" name="Path of Image" placeholder="Path Of Image" required="required"/>  
+        <form action="predict_object"method="post">
+            <input type="text" name="image" placeholder="Path Of Image" required="required"/>
             <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
         </form>
 
-        <h3 class="Image">Prediction</h3>
     </div>
+    <img src="D:\Dwarf AI\Uploads\Final_result.jpg" alt="Predicted Image" width="720" height="1080">
 
 </body>
 </html>
