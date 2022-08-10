@@ -5,6 +5,4 @@ numpy
 matplotlib
 gunicorn
 tensorflow
-PIL
 cv2
-keras
