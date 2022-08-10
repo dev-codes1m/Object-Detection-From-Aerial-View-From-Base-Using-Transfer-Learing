@@ -5,4 +5,4 @@ numpy
 matplotlib
 gunicorn
 tensorflow
-cv2
+
